@@ -28,6 +28,7 @@ my %WriteMakefileArgs = (
   'PREREQ_PM' => {
     'Carp' => '0',
     'Exporter' => '0',
+    'File::Spec::Functions' => '0',
     'Log::Contextual' => '0',
     'Log::Contextual::WarnLogger' => '0',
     'POSIX' => '0',
@@ -41,7 +42,7 @@ my %WriteMakefileArgs = (
     'parent' => '0',
     're' => '0'
   },
-  'VERSION' => '0.175',
+  'VERSION' => '0.176',
   'test' => {
     'TESTS' => 't/*.t'
   }

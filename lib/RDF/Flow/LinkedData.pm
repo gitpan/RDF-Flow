@@ -2,7 +2,7 @@
 use warnings;
 package RDF::Flow::LinkedData;
 BEGIN {
-  $RDF::Flow::LinkedData::VERSION = '0.175';
+  $RDF::Flow::LinkedData::VERSION = '0.176';
 }
 #ABSTRACT: Retrieve RDF from a HTTP-URI
 
@@ -50,7 +50,7 @@ RDF::Flow::LinkedData - Retrieve RDF from a HTTP-URI
 
 =head1 VERSION
 
-version 0.175
+version 0.176
 
 =head1 DESCRIPTION
 

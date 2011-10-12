@@ -15,9 +15,11 @@ lib/RDF/Flow/Union.pm
 t/00_compile.t
 t/author-critic.t
 t/cached.t
+t/data/example.nt
+t/data/example.rdf
+t/data/example.ttl
 t/dummy.t
 t/errors.t
-t/example.ttl
 t/graphviz.t
 t/linkeddata.t
 t/more_sources.t

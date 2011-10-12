@@ -20,6 +20,7 @@ name: RDF-Flow
 requires:
   Carp: 0
   Exporter: 0
+  File::Spec::Functions: 0
   Log::Contextual: 0
   Log::Contextual::WarnLogger: 0
   POSIX: 0
@@ -36,4 +37,4 @@ requires:
 resources:
   bugtracker: https://github.com/nichtich/RDF-Flow/issues
   repository: https://github.com/nichtich/RDF-Flow
-version: 0.175
+version: 0.176

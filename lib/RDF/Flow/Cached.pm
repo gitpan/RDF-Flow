@@ -2,7 +2,7 @@
 use warnings;
 package RDF::Flow::Cached;
 BEGIN {
-  $RDF::Flow::Cached::VERSION = '0.175';
+  $RDF::Flow::Cached::VERSION = '0.176';
 }
 #ABSTRACT: Caches a source
 
@@ -147,7 +147,7 @@ RDF::Flow::Cached - Caches a source
 
 =head1 VERSION
 
-version 0.175
+version 0.176
 
 =head1 SYNOPSIS
 
