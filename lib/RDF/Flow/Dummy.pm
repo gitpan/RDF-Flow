@@ -1,8 +1,8 @@
 ﻿use strict;
 use warnings;
 package RDF::Flow::Dummy;
-BEGIN {
-  $RDF::Flow::Dummy::VERSION = '0.176';
+{
+  $RDF::Flow::Dummy::VERSION = '0.177';
 }
 #ABSTRACT: Dummy source that always returns one trivial triple
 
@@ -38,7 +38,7 @@ RDF::Flow::Dummy - Dummy source that always returns one trivial triple
 
 =head1 VERSION
 
-version 0.176
+version 0.177
 
 =head2 DESCRIPTION
 

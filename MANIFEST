@@ -30,5 +30,3 @@ t/release-pod-syntax.t
 t/simple_source.t
 t/source_types.t
 t/util.t
-tmp/50_union.t
-tmp/test_linkeddata.pl

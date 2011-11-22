@@ -1,8 +1,8 @@
 ﻿use strict;
 use warnings;
 package RDF::Flow::Source;
-BEGIN {
-  $RDF::Flow::Source::VERSION = '0.176';
+{
+  $RDF::Flow::Source::VERSION = '0.177';
 }
 #ABSTRACT: Source of RDF data
 
@@ -342,7 +342,7 @@ RDF::Flow::Source - Source of RDF data
 
 =head1 VERSION
 
-version 0.176
+version 0.177
 
 =head1 SYNOPSIS
 

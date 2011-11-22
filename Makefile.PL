@@ -9,42 +9,45 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  'ABSTRACT' => 'RDF data flow pipeline',
-  'AUTHOR' => 'Jakob Voß <voss@gbv.de>',
-  'BUILD_REQUIRES' => {
-    'English' => '0',
-    'RDF::Trine::Iterator' => '0',
-    'RDF::Trine::Serializer::Turtle' => '0',
-    'Test::More' => '0.88',
-    'Test::RDF' => '0'
+  "ABSTRACT" => "RDF data flow pipeline",
+  "AUTHOR" => "Jakob Vo\303\237 <voss\@gbv.de>",
+  "BUILD_REQUIRES" => {
+    "English" => 0,
+    "RDF::Trine::Iterator" => 0,
+    "RDF::Trine::Serializer::Turtle" => 0,
+    "Test::More" => "0.88",
+    "Test::RDF" => 0
   },
-  'CONFIGURE_REQUIRES' => {
-    'ExtUtils::MakeMaker' => '6.30'
+  "CONFIGURE_REQUIRES" => {
+    "ExtUtils::MakeMaker" => "6.30"
   },
-  'DISTNAME' => 'RDF-Flow',
-  'EXE_FILES' => [],
-  'LICENSE' => 'perl',
-  'NAME' => 'RDF::Flow',
-  'PREREQ_PM' => {
-    'Carp' => '0',
-    'Exporter' => '0',
-    'File::Spec::Functions' => '0',
-    'Log::Contextual' => '0',
-    'Log::Contextual::WarnLogger' => '0',
-    'POSIX' => '0',
-    'RDF::Trine' => '0',
-    'RDF::Trine::Model' => '0',
-    'RDF::Trine::Parser' => '0',
-    'Scalar::Util' => '0',
-    'Try::Tiny' => '0',
-    'URI' => '0',
-    'URI::Escape' => '0',
-    'parent' => '0',
-    're' => '0'
+  "DISTNAME" => "RDF-Flow",
+  "EXE_FILES" => [],
+  "LICENSE" => "perl",
+  "NAME" => "RDF::Flow",
+  "PREREQ_PM" => {
+    "Carp" => 0,
+    "Exporter" => 0,
+    "File::Spec::Functions" => 0,
+    "Log::Contextual" => 0,
+    "Log::Contextual::WarnLogger" => 0,
+    "POSIX" => 0,
+    "RDF::Trine" => 0,
+    "RDF::Trine::Model" => 0,
+    "RDF::Trine::Parser" => 0,
+    "Scalar::Util" => 0,
+    "Try::Tiny" => 0,
+    "URI" => 0,
+    "URI::Escape" => 0,
+    "base" => 0,
+    "parent" => 0,
+    "re" => 0,
+    "strict" => 0,
+    "warnings" => 0
   },
-  'VERSION' => '0.176',
-  'test' => {
-    'TESTS' => 't/*.t'
+  "VERSION" => "0.177",
+  "test" => {
+    "TESTS" => "t/*.t"
   }
 );
 
