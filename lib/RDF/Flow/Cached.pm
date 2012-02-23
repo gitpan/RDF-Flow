@@ -2,7 +2,7 @@
 use warnings;
 package RDF::Flow::Cached;
 {
-  $RDF::Flow::Cached::VERSION = '0.177';
+  $RDF::Flow::Cached::VERSION = '0.178';
 }
 #ABSTRACT: Caches a source
 
@@ -21,10 +21,10 @@ sub new {
     my $cache  = shift;
     my (%args) = @_;
 
-    # TODO: check $source and $cache
     croak "missing source" unless $source;
 
-    $source = RDF::Flow::rdflow($source);
+    $source = RDF::Flow::Source->new( $source )
+        unless blessed $source and $source->isa('RDF::Flow::Source');
 
     my $self = bless {
         name   => "cached " . $source->name,
@@ -147,7 +147,7 @@ RDF::Flow::Cached - Caches a source
 
 =head1 VERSION
 
-version 0.177
+version 0.178
 
 =head1 SYNOPSIS
 

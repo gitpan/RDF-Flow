@@ -2,7 +2,7 @@
 use warnings;
 package RDF::Flow::Union;
 {
-  $RDF::Flow::Union::VERSION = '0.177';
+  $RDF::Flow::Union::VERSION = '0.178';
 }
 #ABSTRACT: Returns the union of multiple sources
 
@@ -69,7 +69,7 @@ RDF::Flow::Union - Returns the union of multiple sources
 
 =head1 VERSION
 
-version 0.177
+version 0.178
 
 =head1 SYNOPSIS
 

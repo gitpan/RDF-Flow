@@ -2,7 +2,7 @@
 use warnings;
 package RDF::Flow;
 {
-  $RDF::Flow::VERSION = '0.177';
+  $RDF::Flow::VERSION = '0.178';
 }
 #ABSTRACT: RDF data flow pipeline
 
@@ -40,7 +40,7 @@ RDF::Flow - RDF data flow pipeline
 
 =head1 VERSION
 
-version 0.177
+version 0.178
 
 =head1 SYNOPSIS
 

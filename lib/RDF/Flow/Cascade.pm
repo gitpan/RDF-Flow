@@ -2,7 +2,7 @@
 use warnings;
 package RDF::Flow::Cascade;
 {
-  $RDF::Flow::Cascade::VERSION = '0.177';
+  $RDF::Flow::Cascade::VERSION = '0.178';
 }
 #ABSTRACT: Returns the first non-empty response of a sequence of sources
 
@@ -80,7 +80,7 @@ RDF::Flow::Cascade - Returns the first non-empty response of a sequence of sourc
 
 =head1 VERSION
 
-version 0.177
+version 0.178
 
 =head1 SYNOPSIS
 

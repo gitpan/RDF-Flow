@@ -2,7 +2,7 @@
 use warnings;
 package RDF::Flow::Pipeline;
 {
-  $RDF::Flow::Pipeline::VERSION = '0.177';
+  $RDF::Flow::Pipeline::VERSION = '0.178';
 }
 #ABSTRACT: Pipelines multiple sources
 
@@ -57,7 +57,7 @@ RDF::Flow::Pipeline - Pipelines multiple sources
 
 =head1 VERSION
 
-version 0.177
+version 0.178
 
 =head1 SYNOPSIS
 
